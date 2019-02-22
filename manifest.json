@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Jivosite Killer",
+	"description": "Finish him!",
+	"version": "1.0",
+	"background": {
+		"scripts": [
+			"popup.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": "icon1.png",
+		"name": "Click to change the icon's color"
+	},
+	
+	"permissions": [
+		"activeTab",
+    "clipboardWrite",
+		"<all_urls>",
+		"storage"
+	]
+}
